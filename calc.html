@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css" />
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+      </head>
+      <body>
+        <header>
+          <h1>HEADER</h1>
+        </header>
+        <section class="main-section">
+          <div class="sidebar">
+            <ul class="side-menu">
+              <li class="side-menu-item">
+                <a href="index.html" class="page-link"> <b>Главная</b> </a>
+              </li>
+              <li class="side-menu-item">
+                <a href="context.html" class="page-link"><b>Контекст</b></a>
+              </li>
+              <li class="side-menu-item">
+                <a href="info.html" class="page-link"><b>Инфо</b></a>
+              </li>
+              <li class="side-menu-item">
+                <a href="calc.html" class="page-link"><b>Калькулятор</b></a>
+              </li>
+            </ul>
+          </div>
+          <div class="content">
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME
+            TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT
+            SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME TEXT SOME
+          </div>
+        </section>
+        <footer>
+          <h1>FOOTER</h1>
+        </footer>
+      </body>
+    </html>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1 class="title">
+        Калькулятор квадратных уравнений
+      </h1>
+      <div class="equation">
+        <input class="a" id="a" type="text" />
+        <span class="x">x<sup>2</sup></span>
+        <input class="b" id="b" type="text" />
+        <span class="x">x</span>
+        <input class="c" id="c" type="text" />
+        <span class="x">=0</span>
+      </div>
+      <button class="btn">
+        Решить квадратное уравнение
+      </button>
+      <div class="answers">
+        <div>x1 = <span class="answer_x1">__</span></div>
+        <div>x2 = <span class="answer_x2">__</span></div>
+      </div>
+    </div>
+
+    <script src="calc.js"></script>
+  </body>
+</html>
